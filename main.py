@@ -44,7 +44,7 @@ def main():
                 test_calculator.calculate(case)
             test_calculator.display_history()
         else:
-            raise ValueError
+            print("INVALID OPERATION.")
         
         print("\nPRESS ENTER TO CONTINUE...")
         input()
